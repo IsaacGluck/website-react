@@ -3,6 +3,9 @@ import NavBar from './components/NavBar';
 import HomeSection from './components/HomeSection';
 import AboutSection from './components/AboutSection';
 import ExperienceSection from './components/ExperienceSection';
+import PortfolioSection from './components/PortfolioSection';
+import ContactSection from './components/ContactSection';
+import FooterSection from './components/FooterSection';
 import './styles/App.css';
 
 class App extends Component {
@@ -13,6 +16,9 @@ class App extends Component {
         <HomeSection />
         <AboutSection />
         <ExperienceSection />
+        <PortfolioSection />
+        <ContactSection />
+        <FooterSection />
       </div>
     );
   }

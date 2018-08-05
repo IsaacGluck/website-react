@@ -2,12 +2,28 @@ import React, { Component } from 'react';
 import '../styles/App.css';
 
 class NavBar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      top: true,
+    };
+  }
+
+  componentDidMount() {
+    document.addEventListener('scroll', () => {
+      const top = window.scrollY < 300;
+      if (top !== this.state.top) {
+        this.setState({ top });
+      }
+    });
+  }
+
   render() {
     return (
-      <nav className="navWrapper">
+      <nav className={this.state.top ? 'navTop' : 'navBottom'}>
         <div className="navHeaderWrapper">
-          <span className="navHeader">
-IG
+          <span className={this.state.top ? 'navHeaderTop' : 'navHeaderBottom'}>
+Isaac Gluck
           </span>
         </div>
         <div className="navLinksWrapper">
