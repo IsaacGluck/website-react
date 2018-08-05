@@ -4,7 +4,7 @@ import '../styles/App.css';
 class App extends Component {
   render() {
     return (
-      <div className="portfolioSection">
+      <div className="portfolioSection" id="portfolio">
         <div className="portfolioHeader">
           <div className="portfolioHeaderText">
             <span>

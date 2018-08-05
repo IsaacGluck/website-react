@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 import '../styles/App.css';
 
 class NavBar extends Component {
@@ -27,21 +28,31 @@ Isaac Gluck
           </span>
         </div>
         <div className="navLinksWrapper">
-          <span className="navLink">
+          <Link to="home" smooth>
+            <span className="navLink">
 Home
-          </span>
-          <span className="navLink">
+            </span>
+          </Link>
+          <Link to="about" offset={-50} smooth>
+            <span className="navLink">
 About
-          </span>
-          <span className="navLink">
+            </span>
+          </Link>
+          <Link to="experience" offset={-50} smooth>
+            <span className="navLink">
 Experience
-          </span>
-          <span className="navLink">
+            </span>
+          </Link>
+          <Link to="portfolio" offset={-50} smooth>
+            <span className="navLink">
 Portfolio
-          </span>
-          <span className="navLink">
+            </span>
+          </Link>
+          <Link to="contact" smooth>
+            <span className="navLink">
 Contact
-          </span>
+            </span>
+          </Link>
         </div>
       </nav>
     );

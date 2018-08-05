@@ -4,7 +4,7 @@ import '../styles/App.css';
 class HomeSection extends Component {
   render() {
     return (
-      <div className="homeSection">
+      <div className="homeSection" id="home">
         <div className="homeSectionText">
           <span className="homeSectionName">
 Isaac Gluck

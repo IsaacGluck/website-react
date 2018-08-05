@@ -35,7 +35,7 @@ class ContactSection extends Component {
 
   render() {
     return (
-      <div className="contactSection">
+      <div className="contactSection" id="contact">
         <div className="contactHeader">
           <div className="contactHeaderText">
             <span>
