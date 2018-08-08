@@ -22,7 +22,10 @@ $transparent: rgba(0, 0, 0, 0);
 }
 
 %section-header-text {
-  font-size: 2em;
+  font-size: 2.5em;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1.25em;
+  border-bottom: 3px solid $green;
 }
 
 
@@ -33,6 +36,7 @@ $transparent: rgba(0, 0, 0, 0);
 
 .app {
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 // Nav Bar
@@ -53,12 +57,12 @@ nav {
 
 .navTop {
   background-color: $transparent;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .navBottom {
-  background-color: $lightGrey;
-  font-size: 1.1rem;
+  background-color: white;
+  font-size: 1.3rem;
 }
 
 .navLink {
@@ -71,19 +75,31 @@ nav {
   }
 }
 
+// Particles JS
+.particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
 
 // Home Section
 .homeSection {
-  height: 100%;
   @extend %flex-column;
   justify-content: center;
   align-items: flex-start;
+  height: 100%;
+  background-color: $lightGrey;
   padding-left: 3rem;
+  z-index: 1;
 }
 
 .homeSectionText {
   @extend %flex-column;
-  font-size: 3rem;
+  font-size: 5rem;
+  font-family: 'Playfair Display', serif;
 }
 
 // About Section
@@ -91,10 +107,12 @@ nav {
 .aboutSection {
   @extend %flex-column;
   @extend %section;
+  // height: 100%;
+  // min-height: 650px;
   align-items: center;
   padding-top: 2em;
   padding-bottom: 2em;
-  background-color: $lightGrey;
+  // background-color: $lightGrey;
   // clip-path: polygon(
   //   0 4vw,
   //   100% 0,
@@ -118,7 +136,7 @@ nav {
 }
 
 .aboutPhoto img {
-  width: 350px;
+  width: 400px;
 }
 
 
@@ -129,7 +147,8 @@ nav {
 }
 
 .experienceHeader {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .experienceHeaderText {
@@ -197,14 +216,22 @@ nav {
 
 .portfolioTwoRow {
   @extend %portfolioRow;
-  height: 50vh;
+  height: 55vh;
   min-height: 450px;
 }
 
 .portfolioOneRow {
   @extend %portfolioRow;
-  height: 35vh;
+  height: 40vh;
   min-height: 300px;
+}
+
+.portfolioRowHeader {
+  text-align: center;
+  padding: 1.5rem 0;
+  svg {
+    height: 20vh;
+  }
 }
 
 // Contact Section
@@ -212,6 +239,8 @@ nav {
   @extend %flex-column;
   @extend %section;
   align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
   background-color: $lightGrey;
 }
 
@@ -223,21 +252,45 @@ nav {
   width: 30%;
   form {
     @extend %flex-column;
+    align-items: center;
   }
 }
 
 input[type=text], input[type=submit], textarea {
+  width: 100%;
   margin: .5rem 0;
   padding: .5rem;
-  // border: 1px solid $transparent;
+  // border: none;
+  border: 1px solid $transparent;
   border-radius: 0;
+
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid $green;
+    // border-left: 1px solid $green;
+  }
+}
+
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 50px;
 }
 
 input[type=submit] {
+  width: 50%;
   cursor: pointer;
   box-shadow: inset 0 0 0 0 $clouds;
-  transition: ease-in 0.6s;
-  // border: 1px solid $green;
+  // transition: ease-in 0.6s;
+  outline: none;
+  // border: none;
+  // border: 1px solid $transparent;
+
+  &:focus {
+    outline: none;
+    // border-bottom: 1px solid $green;
+    // border-left: 1px solid $green;
+  }
 }
 
 // input[type=text]:focus, textarea:focus, input[type=submit]:focus {
@@ -261,5 +314,10 @@ input[type=submit] {
   svg {
     margin: 0 .5rem;
     fill: $darkGrey;
+    transition: .4s;
+
+    &:hover {
+      fill: $green;
+    }
   }
 }

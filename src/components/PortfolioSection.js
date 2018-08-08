@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
+import Memur from '../img/Memur';
+import Pacman from '../img/Pacman';
+import Watch from '../img/Watch';
+import Tse from '../img/Tse';
+import Ultimate from '../img/Ultimate';
+import Website from '../img/Website';
 
 class App extends Component {
   render() {
@@ -16,7 +22,7 @@ Portfolio
           <div className="portfolioColumn">
             <div className="portfolioTwoRow">
               <div className="portfolioRowHeader">
-Row Header
+                <Memur />
               </div>
               <div className="portfolioRowBody">
 Row Body
@@ -24,7 +30,7 @@ Row Body
             </div>
             <div className="portfolioOneRow">
               <div className="portfolioRowHeader">
-Row Header
+                <Pacman />
               </div>
               <div className="portfolioRowBody">
 Row Body
@@ -34,7 +40,7 @@ Row Body
           <div className="portfolioColumn">
             <div className="portfolioOneRow">
               <div className="portfolioRowHeader">
-Row Header
+                <Watch />
               </div>
               <div className="portfolioRowBody">
 Row Body
@@ -42,7 +48,7 @@ Row Body
             </div>
             <div className="portfolioTwoRow">
               <div className="portfolioRowHeader">
-Row Header
+                <Tse />
               </div>
               <div className="portfolioRowBody">
 Row Body
@@ -52,7 +58,7 @@ Row Body
           <div className="portfolioColumn">
             <div className="portfolioTwoRow">
               <div className="portfolioRowHeader">
-Row Header
+                <Ultimate />
               </div>
               <div className="portfolioRowBody">
 Row Body
@@ -60,7 +66,7 @@ Row Body
             </div>
             <div className="portfolioOneRow">
               <div className="portfolioRowHeader">
-Row Header
+                <Website />
               </div>
               <div className="portfolioRowBody">
 Row Body
