@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
+import HamburgerMenu from 'react-hamburger-menu';
 import '../styles/App.css';
 
 class NavBar extends Component {
@@ -7,7 +8,10 @@ class NavBar extends Component {
     super(props);
     this.state = {
       top: true,
+      hamburgerOpen: false,
     };
+
+    this.onHamburgerClicked = this.onHamburgerClicked.bind(this);
   }
 
   componentDidMount() {
@@ -19,6 +23,11 @@ class NavBar extends Component {
     });
   }
 
+  onHamburgerClicked() {
+    this.setState(prevState => (
+      { hamburgerOpen: !prevState.hamburgerOpen }));
+  }
+
   render() {
     return (
       <nav className={this.state.top ? 'navTop' : 'navBottom'}>
@@ -26,8 +35,9 @@ class NavBar extends Component {
           <span className={this.state.top ? 'navHeaderTop' : 'navHeaderBottom'}>
 Isaac Gluck
           </span>
+          <HamburgerMenu className="hamburger" isOpen={this.state.hamburgerOpen} menuClicked={this.onHamburgerClicked} />
         </div>
-        <div className="navLinksWrapper">
+        <div className={this.state.hamburgerOpen ? 'navLinksWrapper' : 'hideNavLinksWrapper'}>
           <Link to="home" smooth>
             <span className="navLink">
 Home

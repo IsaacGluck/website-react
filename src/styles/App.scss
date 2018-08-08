@@ -55,6 +55,12 @@ nav {
   z-index: 10000;
 }
 
+.navHeaderWrapper { // hamburger
+  div {
+    display: none;
+  }
+}
+
 .navTop {
   background-color: $transparent;
   font-size: 1.5rem;
@@ -74,6 +80,62 @@ nav {
     cursor: pointer;
     border-bottom: 3px solid $green;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .navTop {
+    background-color: white;
+    font-size: 1.3rem;
+  }
+
+  .navHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+
+    div { // hamburger
+      display: block;
+    }
+  }
+
+  .navLinksWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // hide other nav things trick
+    max-height: 500px;
+    opacity: 1;
+    transition: 0.45s ease-out;
+    overflow: visible;
+
+    a {
+      padding: .5rem 0;
+    }
+  }
+
+  .hideNavLinksWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // hide other nav things trick
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.45s ease-out;
+
+    a {
+      padding: .5rem 0;
+    }
+  }
+
+  // .navLink {
+  //   // padding:
+  // }
 }
 
 // Particles JS
