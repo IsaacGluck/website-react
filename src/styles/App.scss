@@ -68,6 +68,7 @@ nav {
 .navLink {
   margin: .9rem;
   padding: .1rem;
+  z-index: 100;
 
   &:hover {
     cursor: pointer;
@@ -83,6 +84,9 @@ nav {
   height: 100%;
   width: 100%;
   z-index: 0;
+  canvas {
+    z-index: 0;
+  }
 }
 
 // Home Section
