@@ -38,27 +38,27 @@ Isaac Gluck
           <HamburgerMenu className="hamburger" isOpen={this.state.hamburgerOpen} menuClicked={this.onHamburgerClicked} />
         </div>
         <div className={this.state.hamburgerOpen ? 'navLinksWrapper' : 'hideNavLinksWrapper'}>
-          <Link to="home" smooth>
+          <Link to="home" smooth onClick={this.onHamburgerClicked}>
             <span className="navLink">
 Home
             </span>
           </Link>
-          <Link to="about" offset={-50} smooth>
+          <Link to="about" offset={-70} smooth onClick={this.onHamburgerClicked}>
             <span className="navLink">
 About
             </span>
           </Link>
-          <Link to="experience" offset={-50} smooth>
+          <Link to="experience" offset={-70} smooth onClick={this.onHamburgerClicked}>
             <span className="navLink">
 Experience
             </span>
           </Link>
-          <Link to="portfolio" offset={-50} smooth>
+          <Link to="portfolio" offset={-70} smooth onClick={this.onHamburgerClicked}>
             <span className="navLink">
 Portfolio
             </span>
           </Link>
-          <Link to="contact" smooth>
+          <Link to="contact" smooth onClick={this.onHamburgerClicked}>
             <span className="navLink">
 Contact
             </span>
