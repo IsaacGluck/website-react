@@ -443,3 +443,21 @@ input[type=submit] {
     margin-bottom: 1.5rem;
   }
 }
+
+// Phone and Smaller
+@media only screen and (max-width: 617px) {
+
+  %section-header-text {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  // Home
+  .homeSection {
+    padding-left: 2.5rem;
+  }
+  .homeSectionText {
+    font-size: 2.5rem;
+  }
+
+}
