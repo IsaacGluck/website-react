@@ -21,7 +21,6 @@ Experience
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element"
-              iconStyle={{ background: '#ecf0f1', color: '#fff' }}
               icon={<AppNexus />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -37,7 +36,6 @@ About AppNexus.
 
             <VerticalTimelineElement
               className="vertical-timeline-element"
-              iconStyle={{ background: '#ecf0f1', color: '#fff' }}
               icon={<Dartmouth />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -53,7 +51,6 @@ About research.
 
             <VerticalTimelineElement
               className="vertical-timeline-element"
-              iconStyle={{ background: '#ecf0f1', color: '#fff' }}
               icon={<Amazon />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -69,7 +66,6 @@ About Amazon.
 
             <VerticalTimelineElement
               className="vertical-timeline-element"
-              iconStyle={{ background: '#ecf0f1', color: '#fff' }}
               icon={<Dartmouth />}
             >
               <h3 className="vertical-timeline-element-title">
