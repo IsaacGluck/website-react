@@ -7,7 +7,7 @@ import Tse from '../img/Tse';
 import Ultimate from '../img/Ultimate';
 import Website from '../img/Website';
 
-class App extends Component {
+class PortfolioSection extends Component {
   render() {
     return (
       <div className="portfolioSection" id="portfolio">
@@ -79,4 +79,4 @@ Row Body
   }
 }
 
-export default App;
+export default PortfolioSection;
