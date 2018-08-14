@@ -13,7 +13,7 @@ const content = {
       AppNexus: {
         title: 'Software Development Engineer Intern',
         subtitle: 'AppNexus (aquired by AT&T) - New York, NY',
-        text: 'This past summer I interned as a Software Developer Engineer at the New York Ad Tech Company AppNexus. I worked on the Optimization Technology team and used Java Dropwizard to build a RESTful webservice as the backend for a Slackbot. I deployed the webservice using Docker and Kubernetes. After finishing my project early, I added a Node React frontend usint the same backend. I also got the opportunity to write for the company blog about my internship.',
+        text: 'This past summer I interned as a Software Developer Engineer at the New York Ad Tech Company AppNexus. I worked on the Optimization Technology team and used Java Dropwizard to build a RESTful webservice as the backend for a Slackbot. I deployed the webservice using Docker and Kubernetes. After finishing my project early, I added a Node React frontend using the same backend. I also got the opportunity to write for the company blog about my internship.',
       },
       Research: {
         title: 'Research Assistant',
