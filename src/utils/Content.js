@@ -3,9 +3,10 @@ const content = {
     about: {
       /* eslint max-len: ["error", { "ignoreStrings": true }] */
       paragraphs: [
-        'Hi, my name is Isaac Gluck. I am an aspiring software engineer at Dartmouth College. I began my coding career at Stuyvesant High School and have not looked back. I\'ve taken classes in Python, Java, and software development (HTML, CSS, and Javascript).',
-        'Outside the classroom I\'ve delved further into web development, learning PHP, SQL, Mongo, and jQuery on my own time. I\'m currently learning Node.js and React. I work as a teaching assistant and tutor as well as doing independent research in the Evolutionary Computational Genomics Lab at Dartmouth. I also had an amazing experience interning at Amazon.',
-        'Beyond the screen, I am an avid soccer fan and player (you\'ll never walk alone) and have just fallen in love with ultimate frisbee. I have played the violin my entire life and recently taught myself guitar.',
+        'Hi, my name is Isaac Gluck. I am an aspiring software engineer studying Computer Science at Dartmouth College. I began my coding career at Stuyvesant High School and have not looked back. I\'ve taken classes in Object Oriented Programming, Computer Architecture, Algorithms, Computer Graphics, and Full Stack Web Development.',
+        'I work as a teaching assistant and tutor as well as doing independent research in the Evolutionary Computational Genomics Lab at Dartmouth. I also had an amazing experiences interning at Amazon and AppNexus.',
+        'Through my academic work, my professional experience, and my own interest, I\'ve learned Java, Python, C, Javascript, HTML, and CSS. I\'ve also gained experience with frameworks such as Dropwizard, Flask, Node, React, and Bootstrap, among others. I\'ve used tools such as SQL and MongoDB, Git for version control and Docker, Kubernetes, AWS, and Heroku for deployment.' ,
+        'Beyond the screen, I am an avid soccer fan and player (you\'ll never walk alone) and am on the Dartmouth  Ultimate Frisbee Team (for whom I\'m the webmaster). I have played the violin my entire life and recently taught myself guitar.',
       ],
     },
     experience: {
