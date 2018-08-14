@@ -1,5 +1,6 @@
 // Colors
 $green: #7dce94;
+$darkGreen: #53B370;
 $darkGrey: #3d3d3f;
 $lightGrey: #f6f5f3;
 $whiteIsh: #f9f8fd;
@@ -199,6 +200,15 @@ nav {
   align-items: center;
   padding-left: 3rem;
   padding-right: 3rem;
+
+  a {
+    text-decoration: none;
+    color: $green;
+
+    &:hover {
+      color: $darkGreen;
+    }
+  }
 }
 
 .portfolioHeaderText {
