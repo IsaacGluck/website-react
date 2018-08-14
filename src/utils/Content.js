@@ -33,12 +33,12 @@ const content = {
       },
     },
     portfolio: {
-      Memur: 'I built an a geo-fencing, meme sharing app, with a team of 5. We used an Express Node server with a MongoDB database hosted by Heroku for the backend. We wrote the front end with React Native and stored the images on AWS. We want to add features such as image detection for inappropriate images, as well as better image compression.',
-      Pacman: '',
-      Watch: '',
-      TSE: '',
-      PainTrain: '',
-      Website: '',
+      Memur: 'I built an a geo-fencing, meme sharing app, with a team of 5. We used an <strong>Express Node server</strong> with a <strong>MongoDB database</strong> hosted by <strong>Heroku</strong> for the backend. We wrote the front end with <strong>React Native</strong> and stored the images on <strong>AWS</strong>. We want to add features such as image detection for inappropriate images, as well as better image compression. See the backend code here, and the frontend code here.',
+      Pacman: 'I created a Pacman replica application using Java and the Swing library. I had a lot of fun making a system that the user can add levels to with txt files. Download the jar here. See the code and how to add levels here. Don\'t get eaten!',
+      Watch: 'On a team of 4, built a smartwatch scavenger hunt game using <strong>C</strong> and the <strong>Pebble Watch SDK</strong>. There was a main game server, a homebase client, and a field agent client on a smartwatch. The game server hosts a real time scavenger hunt and homebase/field agent teams join and compete to find the clues first. See the code here.',
+      TSE: 'I implemented a small search engine in <strong>C</strong>. The project has 3 components: a <strong>Web Crawler</strong> using a a <strong>breadth-first search</strong> approach, an <strong>Indexer</strong> which maps webpages to words to word counts using a hashtable, and a <strong>Querier</strong> which allows a user to search the crawled pages. See the code here.',
+      PainTrain: 'As I taught myself web development I took on the role of web master for my Ultimate Frisbee team. I built the site with raw <strong>HTML, CSS, Javascript</strong>, and the <strong>MaterializeCSS</strong> library. Check it out here. ',
+      Website: 'I built this website using <strong>Node</strong> and <strong>React</strong> to show off what I\'ve been working on and to practice my web development skills. All the styling was done myself. You can see my first attempt at a personal website here (Using raw <strong>HTML, CSS, Javascript, and Bootstrap</strong>), and the code for this new site here. Let me know how it looks!',
     },
   },
 };
