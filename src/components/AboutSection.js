@@ -36,7 +36,7 @@ About
           <div className="aboutText">
 
             {content.website.about.paragraphs.map((paragraph, index) => (
-              <p dangerouslySetInnerHTML={{ __html: paragraph }} />
+              <p dangerouslySetInnerHTML={{ __html: paragraph }} key={content.website.about.keys[index]} />
             ))}
           </div>
         </div>
