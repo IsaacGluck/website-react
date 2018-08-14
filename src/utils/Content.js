@@ -32,7 +32,7 @@ const content = {
       },
     },
     portfolio: {
-      Memur: "",
+      Memur: "I built an a geo-fencing, meme sharing app, with a team of 5. We used an Express Node server with a MongoDB database hosted by Heroku for the backend. We wrote the front end with React Native and stored the images on AWS. We want to add features such as image detection for inappropriate images, as well as better image compression.",
       Pacman: "",
       Watch: "",
       TSE: "",

@@ -6,6 +6,7 @@ import Watch from '../img/Watch';
 import Tse from '../img/Tse';
 import Ultimate from '../img/Ultimate';
 import Website from '../img/Website';
+import content from '../utils/Content';
 
 class PortfolioSection extends Component {
   render() {
@@ -25,7 +26,7 @@ Portfolio
                 <Memur />
               </div>
               <div className="portfolioRowBody">
-Row Body
+                {content.website.portfolio.Memur}
               </div>
             </div>
             <div className="portfolioOneRow">
@@ -33,7 +34,7 @@ Row Body
                 <Pacman />
               </div>
               <div className="portfolioRowBody">
-Row Body
+                {content.website.portfolio.Pacman}
               </div>
             </div>
           </div>
@@ -43,7 +44,7 @@ Row Body
                 <Watch />
               </div>
               <div className="portfolioRowBody">
-Row Body
+                {content.website.portfolio.Watch}
               </div>
             </div>
             <div className="portfolioTwoRow">
@@ -51,7 +52,7 @@ Row Body
                 <Tse />
               </div>
               <div className="portfolioRowBody">
-Row Body
+                {content.website.portfolio.Tse}
               </div>
             </div>
           </div>
@@ -61,7 +62,7 @@ Row Body
                 <Ultimate />
               </div>
               <div className="portfolioRowBody">
-Row Body
+                {content.website.portfolio.Ultimate}
               </div>
             </div>
             <div className="portfolioOneRow">
@@ -69,7 +70,7 @@ Row Body
                 <Website />
               </div>
               <div className="portfolioRowBody">
-Row Body
+                {content.website.portfolio.Website}
               </div>
             </div>
           </div>

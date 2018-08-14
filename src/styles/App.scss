@@ -216,7 +216,7 @@ nav {
   @extend %flex-column;
   align-items: center;
 
-  width: 23vw;
+  width: 25vw;
 }
 
 %portfolioRow {
@@ -243,6 +243,11 @@ nav {
   svg {
     height: 20vh;
   }
+}
+
+.portfolioRowBody {
+  padding: 0 1rem;
+  margin: auto;
 }
 
 // Contact Section
@@ -443,7 +448,7 @@ input[type=submit] {
 
   .portfolioRowBody {
     width: 80%;
-    margin: auto;
+    padding: 0 .3rem;
     margin-bottom: 1.5rem;
   }
 }
