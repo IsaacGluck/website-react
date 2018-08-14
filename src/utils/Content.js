@@ -3,10 +3,10 @@ const content = {
     about: {
       /* eslint max-len: ["error", { "ignoreStrings": true }] */
       paragraphs: [
-        'Hi, my name is Isaac Gluck. I am an aspiring software engineer studying Computer Science at Dartmouth College. I began my coding career at Stuyvesant High School and have not looked back. I\'ve taken classes in Object Oriented Programming, Computer Architecture, Algorithms, Computer Graphics, and Full Stack Web Development.',
-        'I work as a teaching assistant and tutor as well as doing independent research in the Evolutionary Computational Genomics Lab at Dartmouth. I also had an amazing experiences interning at Amazon and AppNexus.',
-        'Through my academic work, my professional experience, and my own interest, I\'ve learned Java, Python, C, Javascript, HTML, and CSS. I\'ve also gained experience with frameworks such as Dropwizard, Flask, Node, React, and Bootstrap, among others. I\'ve used tools such as SQL and MongoDB, Git for version control and Docker, Kubernetes, AWS, and Heroku for deployment.' ,
-        'Beyond the screen, I am an avid soccer fan and player (you\'ll never walk alone) and am on the Dartmouth  Ultimate Frisbee Team (for whom I\'m the webmaster). I have played the violin my entire life and recently taught myself guitar.',
+        'Hi, my name is <strong>Isaac Gluck</strong>. I am an aspiring software engineer studying Computer Science at <strong>Dartmouth College</strong>. I began my coding career at <strong>Stuyvesant High School</strong> and have not looked back. I\'ve taken classes in Object Oriented Programming, Computer Architecture, Algorithms, Computer Graphics, and Full Stack Web Development.',
+        'I work as a teaching assistant and tutor as well as doing independent research in the <strong>Evolutionary Computational Genomics Lab at Dartmouth</strong>. I also had an amazing experiences interning at <strong>Amazon</strong> and <strong>AppNexus</strong>.',
+        'Through my academic work, my professional experience, and my own interest, I\'ve learned <strong>Java, Python, C, Javascript, HTML, and CSS</strong>. I\'ve also gained experience with frameworks such as <strong>Dropwizard, Flask, Node, React, and Bootstrap</strong>, among others. I\'ve used tools such as <strong>SQL</strong> and <strong>MongoDB</strong>, <strong>Git</strong> for version control and <strong>Docker, Kubernetes, AWS, and Heroku</strong> for deployment.' ,
+        'Beyond the screen, I am an avid <strong>soccer</strong> fan and player (you\'ll never walk alone) and am on the Dartmouth <strong>Ultimate Frisbee</strong> Team (for whom I\'m the webmaster). I have played the <strong>violin</strong> my entire life and recently taught myself <strong>guitar</strong>.',
       ],
     },
     experience: {

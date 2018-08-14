@@ -9,15 +9,16 @@ class AboutSection extends Component {
   //
   //   this.getText = this.getText.bind(this);
   // }
-
-  // static getText() {
-  //   for (const paragraph in content.website.about.paragraphs) {
   //
-  //   }
+  // static getText() {
+  //   return (
+  //     <p dangerouslySetInnerHTML={{__html: content.website.about.paragraphs[1]}} />
+  //   );
   // }
 
   render() {
-    console.log(content.website.about.paragraphs);
+    // console.log(content.website.about.paragraphs[1]);
+    // console.log(AboutSection.getText());
 
     return (
       <div className="aboutSection" id="about">
@@ -33,9 +34,10 @@ About
             <img src={me} alt="About Isaac" />
           </div>
           <div className="aboutText">
+
             {content.website.about.paragraphs.map((paragraph, index) => (
               <p>
-                {paragraph}
+                <p dangerouslySetInnerHTML={{__html: paragraph}} />
               </p>
             ))}
           </div>
