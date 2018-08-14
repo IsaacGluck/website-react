@@ -3,6 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import AppNexus from '../img/AppNexus';
 import Amazon from '../img/Amazon';
 import Dartmouth from '../img/Dartmouth';
+import content from '../utils/Content';
 import 'react-vertical-timeline-component/style.min.css';
 import '../styles/App.css';
 
@@ -24,13 +25,13 @@ Experience
               icon={<AppNexus />}
             >
               <h3 className="vertical-timeline-element-title">
-Software Development Engineer Intern
+                {content.website.experience.AppNexus.title}
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-AppNexus - New York, NY
+                {content.website.experience.AppNexus.subtitle}
               </h4>
               <p>
-About AppNexus.
+                {content.website.experience.AppNexus.text}
               </p>
             </VerticalTimelineElement>
 
@@ -39,13 +40,13 @@ About AppNexus.
               icon={<Dartmouth />}
             >
               <h3 className="vertical-timeline-element-title">
-Research Assistant
+                {content.website.experience.Research.title}
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-Dartmouth College - Hanover, NH
+                {content.website.experience.Research.subtitle}
               </h4>
               <p>
-About research.
+                {content.website.experience.Research.text}
               </p>
             </VerticalTimelineElement>
 
@@ -54,13 +55,13 @@ About research.
               icon={<Amazon />}
             >
               <h3 className="vertical-timeline-element-title">
-Software Development Engineer Intern
+                {content.website.experience.Amazon.title}
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-Amazon - New York, NY
+                {content.website.experience.Amazon.subtitle}
               </h4>
               <p>
-About Amazon.
+                {content.website.experience.Amazon.text}
               </p>
             </VerticalTimelineElement>
 
@@ -69,13 +70,13 @@ About Amazon.
               icon={<Dartmouth />}
             >
               <h3 className="vertical-timeline-element-title">
-CS 10 Teacher&apos;s Assistant
+                {content.website.experience.TA.title}
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-Dartmouth College - Hanover, NH
+                {content.website.experience.TA.subtitle}
               </h4>
               <p>
-About TA.
+                {content.website.experience.TA.text}
               </p>
             </VerticalTimelineElement>
 

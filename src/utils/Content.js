@@ -10,28 +10,33 @@ const content = {
     },
     experience: {
       AppNexus: {
-        title: '',
-        subtitle: '',
-        text: '',
-      },
-      Amazon: {
-        title: '',
-        subtitle: '',
-        text: '',
+        title: 'Software Development Engineer Intern',
+        subtitle: 'AppNexus (aquired by AT&T) - New York, NY',
+        text: 'This past summer I interned as a Software Developer Engineer at the New York Ad Tech Company AppNexus. I worked on the Optimization Technology team and used Java Dropwizard to build a RESTful webservice as the backend for a Slackbot. I deployed the webservice using Docker and Kubernetes. After finishing my project early, I added a Node React frontend usint the same backend. I also got the opportunity to write for the company blog about my internship.',
       },
       Research: {
-        title: '',
-        subtitle: '',
-        text: '',
+        title: 'Research Assistant',
+        subtitle: 'Dartmouth College - Hanover, NH',
+        text: 'Winter term of Junior year, I was awarded the Mellam Family Foundation Grant to work full time as a research assistant in the Dartmouth Evolutionary Computational Genomics Lab. I now work part time in the lab as I continue taking classes. I am helping design and build a novel algorithm and metric to compare phylogenetic trees with different numbers of taxa.',
+      },
+      Amazon: {
+        title: 'Software Development Engineer Intern',
+        subtitle: 'Amazon - New York, NY',
+        text: 'My freshman summer I was hired as an SDE Intern at Amazon. I worked on the Supply Chain Optimization Team in New York building a Java internal service to help improve large electronic product demand forecasting accuracy.',
       },
       TA: {
-        title: '',
-        subtitle: '',
-        text: '',
+        title: 'CS 10 Teacher\'s Assistant',
+        subtitle: 'Dartmouth College - Hanover, NH',
+        text: 'I worked as a Teacher\'s Assistant for Computer Science 10 - Problem Solving via Object Oriented Programming. I held multiple office hours every week, graded homework assignments and exams, and lead a section of 12.',
       },
     },
     portfolio: {
-
+      Memur: "",
+      Pacman: "",
+      Watch: "",
+      TSE: "",
+      PainTrain: "",
+      Website: "",
     },
   },
 };

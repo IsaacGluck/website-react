@@ -137,13 +137,13 @@ nav {
 }
 
 .aboutBody {
-  width: 60%;
+  padding: 0 3rem;
   @extend %flex-row;
   justify-content: center;
 }
 
 .aboutText {
-  padding-left: 3rem;
+  padding: 0 3rem;
 }
 
 .aboutPhoto img {
@@ -197,8 +197,8 @@ nav {
   @extend %flex-column;
   @extend %section;
   align-items: center;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-bottom: 3em;
 }
 
