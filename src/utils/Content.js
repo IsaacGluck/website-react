@@ -5,7 +5,7 @@ const content = {
       paragraphs: [
         'Hi, my name is <strong>Isaac Gluck</strong>. I am an aspiring software engineer studying Computer Science at <strong>Dartmouth College</strong>. I began my coding career at <strong>Stuyvesant High School</strong> and have not looked back. I\'ve taken classes in Object Oriented Programming, Computer Architecture, Algorithms, Computer Graphics, and Full Stack Web Development.',
         'I work as a teaching assistant and tutor as well as doing independent research in the <strong>Evolutionary Computational Genomics Lab at Dartmouth</strong>. I also had amazing experiences interning at <strong>Amazon</strong> and <strong>AppNexus</strong>.',
-        'Through my academic work, my professional experience, and my own interest, I\'ve learned <strong>Java, Python, C, Javascript, HTML, and CSS</strong>. I\'ve also gained experience with frameworks such as <strong>Dropwizard, Flask, Node, React, and Bootstrap</strong>, among others. I\'ve used tools such as <strong>SQL</strong> and <strong>MongoDB</strong>, <strong>Git</strong> for version control and <strong>Docker, Kubernetes, AWS, and Heroku</strong> for deployment.' ,
+        'Through my academic work, my professional experience, and my own interest, I\'ve learned <strong>Java, Python, C, Javascript, HTML, and CSS</strong>. I\'ve also gained experience with frameworks such as <strong>Dropwizard, Flask, Node, React, and Bootstrap</strong>, among others. I\'ve used tools such as <strong>SQL</strong> and <strong>MongoDB</strong>, <strong>Git</strong> for version control and <strong>Docker, Kubernetes, AWS, and Heroku</strong> for deployment.',
         'Beyond the screen, I am an avid <strong>soccer</strong> fan and player (you\'ll never walk alone) and am on the Dartmouth <strong>Ultimate Frisbee</strong> Team (for whom I\'m the webmaster). I have played the <strong>violin</strong> my entire life and recently taught myself <strong>guitar</strong>.',
       ],
     },
@@ -32,12 +32,12 @@ const content = {
       },
     },
     portfolio: {
-      Memur: "I built an a geo-fencing, meme sharing app, with a team of 5. We used an Express Node server with a MongoDB database hosted by Heroku for the backend. We wrote the front end with React Native and stored the images on AWS. We want to add features such as image detection for inappropriate images, as well as better image compression.",
-      Pacman: "",
-      Watch: "",
-      TSE: "",
-      PainTrain: "",
-      Website: "",
+      Memur: 'I built an a geo-fencing, meme sharing app, with a team of 5. We used an Express Node server with a MongoDB database hosted by Heroku for the backend. We wrote the front end with React Native and stored the images on AWS. We want to add features such as image detection for inappropriate images, as well as better image compression.',
+      Pacman: '',
+      Watch: '',
+      TSE: '',
+      PainTrain: '',
+      Website: '',
     },
   },
 };

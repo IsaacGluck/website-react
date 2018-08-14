@@ -30,7 +30,8 @@ class ContactSection extends Component {
 
   handleSubmit(event) {
     console.log(`A name was submitted: ${this.state.name}`);
-    event.preventDefault();
+    // console.log(this.nameRef)
+    // event.preventDefault();
   }
 
   render() {
@@ -44,10 +45,10 @@ Contact
           </div>
         </div>
         <div className="contactBody">
-          <form onSubmit={this.handleSubmit}>
-            <input type="text" placeholder="Name" value={this.state.name} onChange={this.handleNameChange} />
-            <input type="text" placeholder="Email" value={this.state.email} onChange={this.handleEmailChange} />
-            <textarea placeholder="Message" value={this.state.message} onChange={this.handleMessageChange} />
+          <form onSubmit={this.handleSubmit} action="https://formspree.io/isaacbgluck@gmail.com" method="POST">
+            <input type="text" placeholder="Name" name="name" value={this.state.name} onChange={this.handleNameChange} />
+            <input type="text" placeholder="Email" name="_replyto" value={this.state.email} onChange={this.handleEmailChange} />
+            <textarea placeholder="Message" name="message" value={this.state.message} onChange={this.handleMessageChange} />
             <input type="submit" value="Submit" />
           </form>
         </div>
