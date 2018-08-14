@@ -32,18 +32,18 @@ Portfolio
             </div>
             <div className="portfolioColumn">
               <div className="portfolioRowHeader">
-                <Watch />
-              </div>
-              <div className="portfolioRowBody">
-                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Watch }} />
-              </div>
-            </div>
-            <div className="portfolioColumn">
-              <div className="portfolioRowHeader">
                 <Website />
               </div>
               <div className="portfolioRowBody">
                 <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Website }} />
+              </div>
+            </div>
+            <div className="portfolioColumn">
+              <div className="portfolioRowHeader">
+                <Watch />
+              </div>
+              <div className="portfolioRowBody">
+                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Watch }} />
               </div>
             </div>
           </div>
