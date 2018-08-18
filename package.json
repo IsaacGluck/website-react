@@ -24,7 +24,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
-    "deploy": "yarn build; surge -p build -d isaacgluck.surge.sh",
+    "deploy": "yarn build; surge -p build -d isaacgluck.com",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
