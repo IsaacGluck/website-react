@@ -1,5 +1,6 @@
 // Colors
 $green: #7dce94;
+$darkGreen: #53B370;
 $darkGrey: #3d3d3f;
 $lightGrey: #f6f5f3;
 $whiteIsh: #f9f8fd;
@@ -137,13 +138,13 @@ nav {
 }
 
 .aboutBody {
-  width: 60%;
+  padding: 0 3rem;
   @extend %flex-row;
   justify-content: center;
 }
 
 .aboutText {
-  padding-left: 3rem;
+  padding: 0 3rem;
 }
 
 .aboutPhoto img {
@@ -197,9 +198,17 @@ nav {
   @extend %flex-column;
   @extend %section;
   align-items: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 3em;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  a {
+    text-decoration: none;
+    color: $green;
+
+    &:hover {
+      color: $darkGreen;
+    }
+  }
 }
 
 .portfolioHeaderText {
@@ -207,34 +216,25 @@ nav {
 }
 
 .portfolioBody {
-  @extend %flex-row;
-  justify-content: space-around;
+  @extend %flex-column;
   width: 100%;
+}
+
+.portfolioRow {
+  @extend %flex-row;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 3rem;
 }
 
 .portfolioColumn {
   @extend %flex-column;
   align-items: center;
-
-  width: 23vw;
-}
-
-%portfolioRow {
   background-color: $lightGrey;
-  margin: 1rem 0 ;
-  width: 100%;
-}
-
-.portfolioTwoRow {
-  @extend %portfolioRow;
-  height: 55vh;
-  min-height: 450px;
-}
-
-.portfolioOneRow {
-  @extend %portfolioRow;
-  height: 40vh;
-  min-height: 300px;
+  width: 30vw;
+  height: fit-content;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .portfolioRowHeader {
@@ -243,6 +243,12 @@ nav {
   svg {
     height: 20vh;
   }
+}
+
+.portfolioRowBody {
+  padding: 0 1.5rem;
+  padding-bottom: 1.5rem;
+  margin: auto;
 }
 
 // Contact Section
@@ -341,7 +347,6 @@ input[type=submit] {
 
 
 
-
 // Tablet and Smaller
 @media only screen and (max-width: 800px) {
   // Nav
@@ -403,7 +408,7 @@ input[type=submit] {
 
   // About
   .aboutBody {
-    width: 70%;
+    // width: 70%;
     flex-direction: column;
     align-items: center;
   }
@@ -413,7 +418,7 @@ input[type=submit] {
   }
 
   .aboutText {
-    padding-left: 0;
+    padding: 0;
   }
 
   // Experience
@@ -424,27 +429,23 @@ input[type=submit] {
 
   // Portfolio
   .portfolioBody {
+    padding: 0 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .portfolioRow {
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
 
   .portfolioColumn {
-    width: 70%;
-  }
-
-  .portfolioTwoRow, .portfolioOneRow {
-    height: inherit;
-    min-height: fit-content;
+    width: 100%;
+    margin: 1.5rem 0;
   }
 
   .portfolioRowHeader svg {
     height: 13vh;
-  }
-
-  .portfolioRowBody {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 1.5rem;
   }
 }
 
@@ -462,6 +463,22 @@ input[type=submit] {
   }
   .homeSectionText {
     font-size: 2.5rem;
+  }
+
+  // About
+  .aboutBody {
+    width: 100%;
+    padding: 0 2.5rem;
+  }
+
+  .aboutText {
+    padding: 0;
+  }
+
+  //Portfolio
+  .portfolioSection {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   // Contact

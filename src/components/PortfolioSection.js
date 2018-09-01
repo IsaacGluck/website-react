@@ -6,6 +6,7 @@ import Watch from '../img/Watch';
 import Tse from '../img/Tse';
 import Ultimate from '../img/Ultimate';
 import Website from '../img/Website';
+import content from '../utils/Content';
 
 class PortfolioSection extends Component {
   render() {
@@ -19,60 +20,61 @@ Portfolio
           </div>
         </div>
         <div className="portfolioBody">
-          <div className="portfolioColumn">
-            <div className="portfolioTwoRow">
+
+          <div className="portfolioRow">
+            <div className="portfolioColumn">
               <div className="portfolioRowHeader">
                 <Memur />
               </div>
               <div className="portfolioRowBody">
-Row Body
+                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Memur }} />
               </div>
             </div>
-            <div className="portfolioOneRow">
-              <div className="portfolioRowHeader">
-                <Pacman />
-              </div>
-              <div className="portfolioRowBody">
-Row Body
-              </div>
-            </div>
-          </div>
-          <div className="portfolioColumn">
-            <div className="portfolioOneRow">
-              <div className="portfolioRowHeader">
-                <Watch />
-              </div>
-              <div className="portfolioRowBody">
-Row Body
-              </div>
-            </div>
-            <div className="portfolioTwoRow">
-              <div className="portfolioRowHeader">
-                <Tse />
-              </div>
-              <div className="portfolioRowBody">
-Row Body
-              </div>
-            </div>
-          </div>
-          <div className="portfolioColumn">
-            <div className="portfolioTwoRow">
-              <div className="portfolioRowHeader">
-                <Ultimate />
-              </div>
-              <div className="portfolioRowBody">
-Row Body
-              </div>
-            </div>
-            <div className="portfolioOneRow">
+            <div className="portfolioColumn">
               <div className="portfolioRowHeader">
                 <Website />
               </div>
               <div className="portfolioRowBody">
-Row Body
+                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Website }} />
+              </div>
+            </div>
+            <div className="portfolioColumn">
+              <div className="portfolioRowHeader">
+                <Watch />
+              </div>
+              <div className="portfolioRowBody">
+                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Watch }} />
               </div>
             </div>
           </div>
+
+          <div className="portfolioRow">
+            <div className="portfolioColumn">
+              <div className="portfolioRowHeader">
+                <Pacman />
+              </div>
+              <div className="portfolioRowBody">
+                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Pacman }} />
+              </div>
+            </div>
+            <div className="portfolioColumn">
+              <div className="portfolioRowHeader">
+                <Tse />
+              </div>
+              <div className="portfolioRowBody">
+                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.TSE }} />
+              </div>
+            </div>
+            <div className="portfolioColumn">
+              <div className="portfolioRowHeader">
+                <Ultimate />
+              </div>
+              <div className="portfolioRowBody">
+                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.PainTrain }} />
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     );
@@ -80,3 +82,59 @@ Row Body
 }
 
 export default PortfolioSection;
+
+
+// <div className="portfolioColumn">
+//   <div className="portfolioRow">
+//     <div className="portfolioRowHeader">
+//       <Memur />
+//     </div>
+//     <div className="portfolioRowBody">
+//       <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Memur }} />
+//     </div>
+//   </div>
+//   <div className="portfolioRow">
+//     <div className="portfolioRowHeader">
+//       <Pacman />
+//     </div>
+//     <div className="portfolioRowBody">
+//       <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Pacman }} />
+//     </div>
+//   </div>
+// </div>
+// <div className="portfolioColumn">
+//   <div className="portfolioRow">
+//     <div className="portfolioRowHeader">
+//       <Watch />
+//     </div>
+//     <div className="portfolioRowBody">
+//       <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Watch }} />
+//     </div>
+//   </div>
+//   <div className="portfolioRow">
+//     <div className="portfolioRowHeader">
+//       <Tse />
+//     </div>
+//     <div className="portfolioRowBody">
+//       <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.TSE }} />
+//     </div>
+//   </div>
+// </div>
+// <div className="portfolioColumn">
+//   <div className="portfolioRow">
+//     <div className="portfolioRowHeader">
+//       <Ultimate />
+//     </div>
+//     <div className="portfolioRowBody">
+//       <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.PainTrain }} />
+//     </div>
+//   </div>
+//   <div className="portfolioRow">
+//     <div className="portfolioRowHeader">
+//       <Website />
+//     </div>
+//     <div className="portfolioRowBody">
+//       <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Website }} />
+//     </div>
+//   </div>
+// </div>
