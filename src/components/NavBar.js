@@ -24,7 +24,7 @@ class NavBar extends Component {
   }
 
   onHamburgerClicked() {
-    this.setState(prevState => (
+    this.setState((prevState) => (
       { hamburgerOpen: !prevState.hamburgerOpen }));
   }
 
