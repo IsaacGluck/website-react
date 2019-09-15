@@ -4,6 +4,7 @@ import AppNexus from '../img/AppNexus';
 import Amazon from '../img/Amazon';
 import Dartmouth from '../img/Dartmouth';
 import content from '../utils/Content';
+
 import 'react-vertical-timeline-component/style.min.css';
 import '../styles/App.css';
 
@@ -14,7 +15,7 @@ class ExperienceSection extends Component {
         <div className="experienceHeader">
           <div className="experienceHeaderText">
             <span>
-Experience
+              Experience
             </span>
           </div>
         </div>
