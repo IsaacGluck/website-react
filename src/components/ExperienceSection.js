@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import AppNexus from '../img/AppNexus';
 import Amazon from '../img/Amazon';
+import YC from '../img/YC';
 import Dartmouth from '../img/Dartmouth';
 import content from '../utils/Content';
 
@@ -21,6 +22,21 @@ class ExperienceSection extends Component {
         </div>
         <div className="experienceBody">
           <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element"
+              icon={<YC />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                {content.website.experience.Tassel.title}
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                {content.website.experience.Tassel.subtitle}
+              </h4>
+              <p>
+                {content.website.experience.Tassel.text}
+              </p>
+            </VerticalTimelineElement>
+
             <VerticalTimelineElement
               className="vertical-timeline-element"
               icon={<AppNexus />}
