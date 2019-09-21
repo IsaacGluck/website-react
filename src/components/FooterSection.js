@@ -20,7 +20,7 @@ class FooterSection extends Component {
           </a>
         </div>
         <div className="FooterCopyright">
-© 2018 Isaac Gluck
+          © 2019 Isaac Gluck
         </div>
       </div>
     );
