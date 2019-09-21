@@ -24,17 +24,12 @@ const content = {
       Amazon: {
         title: 'Software Development Engineer Intern',
         subtitle: 'Amazon - New York, NY',
-        text: 'My freshman summer I was hired as an SDE Intern at Amazon. I worked on the Supply Chain Optimization Team in New York building an internal Java service to help improve large electronic product demand forecasting accuracy.',
+        text: 'My freshman summer I was hired as an SDE Intern at Amazon. I worked on the Supply Chain Optimization Team in New York building a Java internal service to help improve large electronic product demand forecasting accuracy.',
       },
       TA: {
         title: 'CS 10 Teacher\'s Assistant',
         subtitle: 'Dartmouth College - Hanover, NH',
         text: 'I worked as a Teacher\'s Assistant for Computer Science 10 - Problem Solving via Object Oriented Programming. I held multiple office hours every week, graded homework assignments and exams, and lead a section of 12.',
-      },
-      Tassel: {
-        title: 'Cofounder and CEO',
-        subtitle: 'Tassel - Hanover, NH',
-        text: 'I founded Tassel with a group of 4 friends to make a less connection-based, more meritocratic recruiting platform. Tassel used Professor referrals to identify candidates. We signed up two thirds of the Dartmouth Faculty as well as professors at Princeton, University of Rochester, NYU, Hunter College and UC Berkley. More than 200 students used Tassel and we worked with almost 10 companies to land almost 10 interviews and one successful hire. We even got the amazing opportunity to interview for Y Combinator.',
       },
     },
     portfolio: {
