@@ -3,10 +3,10 @@ const content = {
     about: {
       /* eslint max-len: ["error", { "ignoreStrings": true }] */
       paragraphs: [
-        'Hi, my name is <strong>Isaac Gluck</strong>. I am an aspiring software engineer studying Computer Science at <strong>Dartmouth College</strong>. I began my coding career at <strong>Stuyvesant High School</strong> and have not looked back. I\'ve taken classes in Object Oriented Programming, Computer Architecture, Algorithms, Computer Graphics, and Full Stack Web Development.',
-        'I have experience as a teaching assistant and tutor, and conduct independent research in the <strong>Evolutionary Computational Genomics Lab at Dartmouth</strong>. I also had amazing experiences interning at <strong>Amazon</strong> and <strong>AppNexus</strong>.',
-        'Through my academic work, my professional experience, and my own interest, I\'ve learned <strong>Java, Python, C, Javascript, HTML, and CSS</strong>. I\'ve also gained experience with frameworks such as <strong>React, Flask, Node, and Dropwizard</strong>, among others. I\'ve used tools such as <strong>SQL</strong> and <strong>MongoDB</strong>, <strong>Git</strong> for version control and <strong>Docker, Kubernetes, AWS, and Heroku</strong> for deployment.',
-        'Beyond the screen, I am an avid <strong>soccer</strong> fan and player (you\'ll never walk alone) and am on the Dartmouth <strong>Ultimate Frisbee</strong> Team (for which I\'m the webmaster). I have played the <strong>violin</strong> my entire life and recently taught myself <strong>guitar</strong>.',
+        'Hi, my name is <strong>Isaac Gluck</strong>. I am currently a software engineer at <strong>AppNexus</strong>. I\'m passionate about technology, entrepreneurship, and impact.',
+        'I have experience as a founder of my own startup as well as past internships with <strong>AppNexus</strong> and <strong>Amazon</strong>. In college, I worked as a Software Engineer at the <strong>Dartmouth DALI Lab</strong>, served as a <strong>TA</strong>, and conducted independent research in the <strong>Evolutionary Computational Genomics Lab at Dartmouth</strong>',
+        'Through my academic work, my professional experience, and my own interest, I\'ve learned <strong>Java, Python, Javascript, C, HTML, and CSS</strong>. I\'ve also gained experience with frameworks such as <strong>React, Flask, and Dropwizard</strong>, among others. I\'ve used tools such as <strong>Kafka</strong>, <strong>SQL</strong> and <strong>MongoDB</strong>, <strong>Git</strong> for version control and <strong>Concourse, Docker, Kubernetes, AWS, and Heroku</strong> for deployment.',
+        'Beyond the screen, I am an avid <strong>soccer</strong> fan and player (you\'ll never walk alone) and am on the Dartmouth <strong>Ultimate Frisbee</strong> Team. I have played the <strong>violin</strong> my entire life and recently taught myself <strong>guitar</strong>.',
       ],
       keys: [1, 2, 3, 4],
     },
@@ -14,12 +14,12 @@ const content = {
       AppNexus: {
         title: 'Software Development Engineer Intern',
         subtitle: 'AppNexus (aquired by AT&T) - New York, NY',
-        text: 'This past summer I interned as a Software Developer Engineer at the New York Ad Tech Company AppNexus. I worked on the Optimization Technology team and used Java Dropwizard to build a RESTful webservice as the backend for a Slackbot. I deployed the webservice using Docker and Kubernetes. After finishing my project early, I added a Node React frontend using the same backend. I also had the opportunity to write for the company blog about my internship.',
+        text: 'I interned as a Software Developer Engineer at the New York Ad Tech Unicorn AppNexus. I worked on the Optimization Technology team and built a slackbot to give account executives better access to data saving the data science and engineering temas time. I used the Java Dropwizard framework to build a RESTful webservice as the backend for the Slackbot. I deployed the webservice using Docker and Kubernetes. After finishing my project early, I built a seperate frontend using Node and React. I also had the opportunity to write for the company blog about my internship.',
       },
       Research: {
         title: 'Research Assistant',
         subtitle: 'Dartmouth College - Hanover, NH',
-        text: 'Winter term of Junior year, I was awarded the Mellam Family Foundation Grant to work full time as a research assistant in the Dartmouth Evolutionary Computational Genomics Lab. I now work part time in the lab as I continue taking classes. I am helping design and build a novel algorithm and metric to compare phylogenetic trees with different numbers of taxa.',
+        text: 'I was awarded the Mellam Family Foundation Grant to work full time as a research assistant in the Dartmouth Evolutionary Computational Genomics Lab. I am helped design and build a novel algorithm and metric to compare phylogenetic trees with different numbers of taxa.',
       },
       Amazon: {
         title: 'Software Development Engineer Intern',
@@ -29,12 +29,12 @@ const content = {
       TA: {
         title: 'CS 10 Teacher\'s Assistant',
         subtitle: 'Dartmouth College - Hanover, NH',
-        text: 'I worked as a Teacher\'s Assistant for Computer Science 10 - Problem Solving via Object Oriented Programming. I held multiple office hours every week, graded homework assignments and exams, and lead a section of 12.',
+        text: 'I worked as a Teacher\'s Assistant for CS10 - Object Oriented Programming and CS52 - Full Stack Web Development.',
       },
       Tassel: {
         title: 'Cofounder and CEO',
         subtitle: 'Tassel - Hanover, NH',
-        text: 'I founded Tassel with a group of 4 friends to make a less connection-based, more meritocratic recruiting platform. Tassel used Professor referrals to identify candidates. We signed up two thirds of the Dartmouth Faculty as well as professors at Princeton, University of Rochester, NYU, Hunter College and UC Berkley. More than 200 students used Tassel and we worked with almost 10 companies to land almost 10 interviews and one successful hire. We even got the amazing opportunity to interview for Y Combinator.',
+        text: 'I founded Tassel with a team of 4 friends to make a less connection-based, more meritocratic recruiting platform. Tassel used Professor referrals to identify candidates. We signed up two thirds of the Dartmouth Faculty as well as professors at Princeton, University of Rochester, NYU, Hunter College and UC Berkley. More than 200 students used Tassel and we worked with more than 10 companies to land over 10 interviews and a successful hire. We even got the amazing opportunity to interview for Y Combinator.',
       },
     },
     portfolio: {
