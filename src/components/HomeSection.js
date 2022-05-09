@@ -6,12 +6,8 @@ class HomeSection extends Component {
     return (
       <div className="homeSection" id="home">
         <div className="homeSectionText">
-          <span className="homeSectionName">
-Isaac Gluck
-          </span>
-          <span className="homeSectionSchool">
-Dartmouth &apos;19
-          </span>
+          <span className="homeSectionName">Isaac Gluck</span>
+          <span className="homeSectionSchool">Engineer at Yotta</span>
         </div>
       </div>
     );

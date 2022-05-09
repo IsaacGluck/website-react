@@ -14,20 +14,21 @@ class PortfolioSection extends Component {
       <div className="portfolioSection" id="portfolio">
         <div className="portfolioHeader">
           <div className="portfolioHeaderText">
-            <span>
-Portfolio
-            </span>
+            <span>Portfolio</span>
           </div>
         </div>
         <div className="portfolioBody">
-
           <div className="portfolioRow">
             <div className="portfolioColumn">
               <div className="portfolioRowHeader">
                 <Memur />
               </div>
               <div className="portfolioRowBody">
-                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Memur }} />
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: content.website.portfolio.Memur,
+                  }}
+                />
               </div>
             </div>
             <div className="portfolioColumn">
@@ -35,7 +36,11 @@ Portfolio
                 <Website />
               </div>
               <div className="portfolioRowBody">
-                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Website }} />
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: content.website.portfolio.Website,
+                  }}
+                />
               </div>
             </div>
             <div className="portfolioColumn">
@@ -43,7 +48,11 @@ Portfolio
                 <Watch />
               </div>
               <div className="portfolioRowBody">
-                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Watch }} />
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: content.website.portfolio.Watch,
+                  }}
+                />
               </div>
             </div>
           </div>
@@ -54,7 +63,11 @@ Portfolio
                 <Pacman />
               </div>
               <div className="portfolioRowBody">
-                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.Pacman }} />
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: content.website.portfolio.Pacman,
+                  }}
+                />
               </div>
             </div>
             <div className="portfolioColumn">
@@ -62,7 +75,11 @@ Portfolio
                 <Tse />
               </div>
               <div className="portfolioRowBody">
-                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.TSE }} />
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: content.website.portfolio.TSE,
+                  }}
+                />
               </div>
             </div>
             <div className="portfolioColumn">
@@ -70,11 +87,14 @@ Portfolio
                 <Ultimate />
               </div>
               <div className="portfolioRowBody">
-                <span dangerouslySetInnerHTML={{ __html: content.website.portfolio.PainTrain }} />
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: content.website.portfolio.PainTrain,
+                  }}
+                />
               </div>
             </div>
           </div>
-
         </div>
       </div>
     );
@@ -82,7 +102,6 @@ Portfolio
 }
 
 export default PortfolioSection;
-
 
 // <div className="portfolioColumn">
 //   <div className="portfolioRow">

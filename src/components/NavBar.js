@@ -24,8 +24,7 @@ class NavBar extends Component {
   }
 
   onHamburgerClicked() {
-    this.setState((prevState) => (
-      { hamburgerOpen: !prevState.hamburgerOpen }));
+    this.setState((prevState) => ({ hamburgerOpen: !prevState.hamburgerOpen }));
   }
 
   render() {
@@ -33,35 +32,48 @@ class NavBar extends Component {
       <nav className={this.state.top ? 'navTop' : 'navBottom'}>
         <div className="navHeaderWrapper">
           <span className={this.state.top ? 'navHeaderTop' : 'navHeaderBottom'}>
-Isaac Gluck
+            Isaac Gluck
           </span>
-          <HamburgerMenu className="hamburger" isOpen={this.state.hamburgerOpen} menuClicked={this.onHamburgerClicked} />
+          <HamburgerMenu
+            className="hamburger"
+            isOpen={this.state.hamburgerOpen}
+            menuClicked={this.onHamburgerClicked}
+          />
         </div>
-        <div className={this.state.hamburgerOpen ? 'navLinksWrapper' : 'hideNavLinksWrapper'}>
+        <div
+          className={
+            this.state.hamburgerOpen ? 'navLinksWrapper' : 'hideNavLinksWrapper'
+          }
+        >
           <Link to="home" smooth onClick={this.onHamburgerClicked}>
-            <span className="navLink">
-Home
-            </span>
+            <span className="navLink">Home</span>
           </Link>
-          <Link to="about" offset={-70} smooth onClick={this.onHamburgerClicked}>
-            <span className="navLink">
-About
-            </span>
+          <Link
+            to="about"
+            offset={-70}
+            smooth
+            onClick={this.onHamburgerClicked}
+          >
+            <span className="navLink">About</span>
           </Link>
-          <Link to="experience" offset={-70} smooth onClick={this.onHamburgerClicked}>
-            <span className="navLink">
-Experience
-            </span>
+          <Link
+            to="experience"
+            offset={-70}
+            smooth
+            onClick={this.onHamburgerClicked}
+          >
+            <span className="navLink">Experience</span>
           </Link>
-          <Link to="portfolio" offset={-70} smooth onClick={this.onHamburgerClicked}>
-            <span className="navLink">
-Portfolio
-            </span>
+          <Link
+            to="portfolio"
+            offset={-70}
+            smooth
+            onClick={this.onHamburgerClicked}
+          >
+            <span className="navLink">Portfolio</span>
           </Link>
           <Link to="contact" smooth onClick={this.onHamburgerClicked}>
-            <span className="navLink">
-Contact
-            </span>
+            <span className="navLink">Contact</span>
           </Link>
         </div>
       </nav>
