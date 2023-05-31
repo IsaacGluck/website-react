@@ -4,7 +4,6 @@ import * as EmailValidator from 'email-validator';
 import '../styles/App.css';
 import 'react-toastify/dist/ReactToastify.min.css';
 
-
 class ContactSection extends Component {
   static displayToast(message) {
     toast.error(message, {
@@ -48,7 +47,7 @@ class ContactSection extends Component {
     // console.log(event);
     if (this.state.name === '') {
       event.preventDefault();
-      ContactSection.displayToast('Provide a name, if you don\'t mind.');
+      ContactSection.displayToast("Provide a name, if you don't mind.");
     } else if (!EmailValidator.validate(this.state.email)) {
       event.preventDefault();
       ContactSection.displayToast('If you could use a real email...');
@@ -64,17 +63,38 @@ class ContactSection extends Component {
         <ToastContainer />
         <div className="contactHeader">
           <div className="contactHeaderText">
-            <span>
-Contact
-            </span>
+            <span>Contact</span>
           </div>
         </div>
         <div className="contactBody">
-          <form onSubmit={this.handleSubmit} action="https://formspree.io/isaacbgluck@gmail.com" method="POST">
+          <form
+            onSubmit={this.handleSubmit}
+            action="https://formspree.io/isaacbgluck@gmail.com"
+            method="POST"
+          >
             <input type="hidden" name="_next" value="#" />
-            <input type="text" placeholder="Name" name="name" maxLength="50" value={this.state.name} onChange={this.handleNameChange} />
-            <input type="text" placeholder="Email" name="_replyto" maxLength="50" value={this.state.email} onChange={this.handleEmailChange} />
-            <textarea placeholder="Message" name="message" value={this.state.message} onChange={this.handleMessageChange} />
+            <input
+              type="text"
+              placeholder="Name"
+              name="name"
+              maxLength="50"
+              value={this.state.name}
+              onChange={this.handleNameChange}
+            />
+            <input
+              type="text"
+              placeholder="Email"
+              name="_replyto"
+              maxLength="50"
+              value={this.state.email}
+              onChange={this.handleEmailChange}
+            />
+            <textarea
+              placeholder="Message"
+              name="message"
+              value={this.state.message}
+              onChange={this.handleMessageChange}
+            />
             <input type="submit" value="Submit" />
           </form>
         </div>
