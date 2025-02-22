@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 import HomeSection from './components/HomeSection';
@@ -29,6 +30,8 @@ class App extends Component {
         <PortfolioSection />
         <ContactSection />
         <FooterSection />
+
+        <Analytics />
       </div>
     );
   }

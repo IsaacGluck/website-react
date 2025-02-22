@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://IsaacGluck.com",
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "email-validator": "^2.0.4",
     "node-sass-chokidar": "^2.0.0",
     "npm-run-all": "^4.1.3",
