@@ -22,7 +22,7 @@ const content = {
       Research: {
         title: 'Research Assistant',
         subtitle: 'Dartmouth College - Hanover, NH',
-        text: 'I was awarded the Mellam Family Foundation Grant to work full time as a research assistant in the Dartmouth Evolutionary Computational Genomics Lab. I am helped design and build a novel algorithm and metric to compare phylogenetic trees with different numbers of taxa.',
+        text: 'I was awarded the Mellam Family Foundation Grant to work full time as a research assistant in the Dartmouth Evolutionary Computational Genomics Lab. I helped design and build a novel algorithm and metric to compare phylogenetic trees with different numbers of taxa.',
       },
       Amazon: {
         title: 'Software Development Engineer Intern',
