@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import * as EmailValidator from 'email-validator';
-import '../styles/App.css';
+import '../styles/App.scss';
 import 'react-toastify/dist/ReactToastify.css';
 
 class ContactSection extends Component {

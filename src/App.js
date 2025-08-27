@@ -7,16 +7,18 @@ import ExperienceSection from './components/ExperienceSection';
 import PortfolioSection from './components/PortfolioSection';
 import ContactSection from './components/ContactSection';
 import FooterSection from './components/FooterSection';
-import 'particles.js/particles';
-import './styles/App.css';
-
-const { particlesJS } = window;
+import { tsParticles } from 'tsparticles-engine';
+import { loadSlim } from 'tsparticles-slim';
+import './styles/App.scss';
 
 class App extends Component {
-  componentDidMount() {
-    particlesJS.load('particles-js', '/utils/particles.json', () => {
-      console.log('callback - particles.js config loaded');
-    });
+  async componentDidMount() {
+    await loadSlim(tsParticles);
+
+    const response = await fetch('/utils/particles.json');
+    const particlesConfig = await response.json();
+
+    await tsParticles.load('particles-js', particlesConfig);
   }
 
   render() {
