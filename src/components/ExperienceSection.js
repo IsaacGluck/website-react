@@ -11,7 +11,7 @@ import content from '../utils/Content';
 import Yotta from '../img/Yotta';
 
 import 'react-vertical-timeline-component/style.min.css';
-import '../styles/App.css';
+import '../styles/App.scss';
 
 class ExperienceSection extends Component {
   render() {

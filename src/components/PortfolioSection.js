@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/App.css';
+import '../styles/App.scss';
 import Memur from '../img/Memur';
 import Pacman from '../img/Pacman';
 import Watch from '../img/Watch';

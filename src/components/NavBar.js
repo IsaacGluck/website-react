@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import HamburgerMenu from 'react-hamburger-menu';
-import '../styles/App.css';
+import '../styles/App.scss';
 
 class NavBar extends Component {
   constructor(props) {

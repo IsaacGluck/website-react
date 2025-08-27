@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Github from '../img/Github';
 import Linkedin from '../img/Linkedin';
 import Instagram from '../img/Instagram';
-import '../styles/App.css';
+import '../styles/App.scss';
 
 class FooterSection extends Component {
   render() {

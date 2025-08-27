@@ -3,7 +3,7 @@ import LazyLoad from 'react-lazy-load';
 
 import content from '../utils/Content';
 import me from '../img/me.jpg';
-import '../styles/App.css';
+import '../styles/App.scss';
 
 class AboutSection extends Component {
   render() {
