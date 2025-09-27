@@ -12,7 +12,7 @@ const content = {
       Yotta: {
         title: 'Senior Software Engineer',
         subtitle: 'Yotta - New York, NY',
-        text: 'I\'m currently working as a Software Engineer at Yotta. Yotta is the top prize-linked savings account in the US. The goal is to use the psychology of the lottery to make savings money more instantly gratifying. Learn more at <strong><a href="https://www.withyotta.com" target="_blank" rel="noreferrer noopener">https://withyotta.com</a></strong>',
+        text: 'I\'m currently working as a Software Engineer at Yotta. Yotta is the top prize-linked savings account in the US. The goal is to use the psychology of the lottery to make saving money more instantly gratifying. Learn more at <strong><a href="https://www.withyotta.com" target="_blank" rel="noreferrer noopener">https://withyotta.com</a></strong>',
       },
       AppNexus: {
         title: 'Software Engineer',
